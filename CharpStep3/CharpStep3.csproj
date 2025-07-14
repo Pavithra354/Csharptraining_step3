@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>UniversityExample</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,8 +46,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Methods\Methods_RefOut.cs" />
+    <Compile Include="Methods\Methods_Revision.cs" />
+    <Compile Include="Methods\Method_Advanced.cs" />
+    <Compile Include="Methods\RefOutEx.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student task\11_differentclasswithinterface.cs" />
+    <Compile Include="Student task\12_StaticandnonStatic.cs" />
+    <Compile Include="Student task\13_overridewithvirtual.cs" />
+    <Compile Include="Student task\14_MethodOverloading.cs" />
+    <Compile Include="Student task\10_AbstractClass.cs" />
+    <Compile Include="Student task\4.Namespacewithclass.cs" />
+    <Compile Include="Student task\5_differentNamespace.cs" />
+    <Compile Include="Student task\6_differentnamespacewithdifferentclass.cs" />
+    <Compile Include="Student task\7_inheritenceUsage.cs" />
+    <Compile Include="Student task\8_InterfaceUsage.cs" />
+    <Compile Include="Student task\2_DifferentParameters.cs" />
+    <Compile Include="Student task\1_Differentreturn.cs" />
+    <Compile Include="Student task\3_Differentreturns_DifferentParameters.cs" />
+    <Compile Include="Student task\9_SingleclasswithdifferentIntegerface.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
