@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TaskDelayNamespace.TaskDelayCls</StartupObject>
+    <StartupObject>AsynCalls.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="Methods\2.Async calls.cs" />
     <Compile Include="Methods\Async calls\1.Threadsleep.cs" />
     <Compile Include="Methods\Async calls\2.Task Delay.cs" />
+    <Compile Include="Methods\Async calls\3.Threadingtask.cs" />
     <Compile Include="Methods\Methods_RefOut.cs" />
     <Compile Include="Methods\Methods_Revision.cs" />
     <Compile Include="Methods\Method_Advanced.cs" />

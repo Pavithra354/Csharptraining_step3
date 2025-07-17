@@ -10,8 +10,8 @@ class WorkItems
     {
         var startTime = DateTime.Now;
         //Method which gives the sleep time.
-        Thread.Sleep(2000);   //
-                              //DB - 40000Records
+        Thread.Sleep(2000);   
+                             
         var endTime = DateTime.Now;
         var elapsedTime = endTime - startTime;
         Console.WriteLine($"Completed the Doucumentation Elapsed time: {elapsedTime.Milliseconds} ms.");
@@ -33,8 +33,8 @@ class WorkItems
     {
         var startTime = DateTime.Now;
         //Method which gives the sleep time.
-        Thread.Sleep(4000);   //
-                              //DB - 40000Records
+        Thread.Sleep(4000);   
+                             
         var endTime = DateTime.Now;
         var elapsedTime = endTime - startTime;
         Console.WriteLine($"Completed the Doucumentation Elapsed time: {elapsedTime.Milliseconds} ms.");
