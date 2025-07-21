@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ExceptionHandlingClean.Program</StartupObject>
+    <StartupObject>PhoneSystem.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,7 @@
     <Compile Include="Methods\Async calls\2.Task Delay.cs" />
     <Compile Include="Methods\Async calls\3.Threadingtask.cs" />
     <Compile Include="Methods\Async calls\ExceptionHandling.cs" />
+    <Compile Include="Methods\Async calls\Extension Methods.cs" />
     <Compile Include="Methods\Async calls\RefOut.cs" />
     <Compile Include="Methods\Async calls\Student_Basics.cs" />
     <Compile Include="Methods\Async calls\Synchronous calls.cs" />
